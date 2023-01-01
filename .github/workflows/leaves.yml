@@ -9,9 +9,10 @@ name: Leaves CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ 1.18.2 ]
   pull_request:
-    branches: [ master ]
+    branches: [ 1.18.2 ]
+  workflow_dispatch:
 
 jobs:
   build:
